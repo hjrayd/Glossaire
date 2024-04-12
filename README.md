@@ -14,15 +14,15 @@
 
 ## Général
 1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
-2.	Qu’est-ce qu’un algorithme ?  
-3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ?
+2.	Qu’est-ce qu’un algorithme ? = Série d'instructions qui permettent d'obtenir un résultat ou résoudre un problème.
+3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ? = C'est un conteneur qui nous permet de stocker des informations temporairement. Elles sot préfixées par le symbole "$".
 4.	Qu’est-ce que la portée d’une variable ?
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
-10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ?
+10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ? = "strlen"
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 13.	Quelle est la différence entre les instructions « require » et « include » en PHP
@@ -32,21 +32,21 @@
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
 ## Front-end
-18.	Définir HTML
-19.	Définir CSS
+18.	Définir HTML = Langage de balisage utilisé pour structurer une page web et son contenu.
+19.	Définir CSS = Langage utilisé pour la mise en forme d'une page web. 
 20.	Définir Javascript
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
-23.	Qu’est-ce qu’un sélecteur CSS ?
-24.	Quelle balise HTML permet de créer un lien hypertexte ?
+23.	Qu’est-ce qu’un sélecteur CSS ? = C'est un élément qui permet de cibler les élements HTML auxquels on veut appliquer une règle CSS.
+24.	Quelle balise HTML permet de créer un lien hypertexte ? = la balise anchorage "a" suivi de "href".
 25.	Qu’est-ce qu’une requête AJAX ?
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
 27.	Définir le responsive design
 28.	Qu’est-ce que le templating ?
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
-31.	Qu’est-ce qu’un « media query » ?
-32.	Qu’est-ce qu’un pseudo élément en CSS ?
+31.	Qu’est-ce qu’un « media query » ? = fonctionnalité qui permet d'adapter la mise en forme d'un site web en fonction de la taille d'ecran où il apparait. 
+32.	Qu’est-ce qu’un pseudo élément en CSS ? = mot clés qui permet de cibler uniquement une partie d'un élément HTML.
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
 34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
 
@@ -62,10 +62,10 @@
 
  
 ## Programmation orientée objet (POO)
-43.	Donner une définition de la programmation orientée objet 
-44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ?
-45.	Qu’est-ce qu’un objet ?
-46.	Définir la notion de propriété / attribut / méthode
+43.	Donner une définition de la programmation orientée objet = Modèle de programmation avec un concept de classes et d'objets qui permettent d'instancier des objets et réutiliser des classes afin de structurer un programme logiciel.
+44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ? = Ensemble de codes qui contiennent des variables et des fonctions permettant de créer des objets. On la déclare en lui donnant le même nom que notre fichier, elle est précedé d'un point et commence par une majuscule. 
+45.	Qu’est-ce qu’un objet ? = Conteneurs composés de variables et de fonctions.
+46.	Définir la notion de propriété / attribut / méthode = 
 47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
 48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
 49.	Qu’est-ce que l’encapsulation ?
