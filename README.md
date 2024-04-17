@@ -25,9 +25,10 @@
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ? = "strlen"
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
-13.	Quelle est la différence entre les instructions « require » et « include » en PHP
+13.	Quelle est la différence entre les instructions « require » et « include » en PHP = require arretera le script et affichera une erreur si il ne trouve pas le fichier tandis que include affichera un avertissement mais n'arretera pas le script même si il y a une erreur.
 14.	Comment effectuer une redirection en PHP ?
-15.	Définir la partie « front-end » et « back-end » d’une application
+15.	Définir la partie « front-end » et « back-end » d’une application = front-end-> désigne l'interface graphique que l'on peut voir et permet l'inetraction entre l'utilisateur et le programme.
+                                                                        back-end -> recouvrent les processus que l'on ne peut pas voir mais qui permettent à l'application de fonctionner.
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
@@ -40,8 +41,8 @@
 23.	Qu’est-ce qu’un sélecteur CSS ? = C'est un élément qui permet de cibler les élements HTML auxquels on veut appliquer une règle CSS.
 24.	Quelle balise HTML permet de créer un lien hypertexte ? = la balise anchorage "a" suivi de "href".
 25.	Qu’est-ce qu’une requête AJAX ?
-26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ?
-27.	Définir le responsive design
+26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ? on utilise "." pour appliquer du style sur une classe et "#" pour un identifiant.
+27.	Définir le responsive design = technique de conception web qui permet d'adapter la page d'un site web en fonction de l'écran ou il est consulté.
 28.	Qu’est-ce que le templating ?
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
