@@ -79,7 +79,7 @@
 56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
 57.	Qu’est-ce qu’un « autoload » ?
 58.	Comment appelle-t-on en français les « getters » et les « setters » ?
-59.	Qu’est-ce que la sérialisation en PHP ? 
+59.	Qu’est-ce que la sérialisation en PHP ?
 
 ## Architecture 
 60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
