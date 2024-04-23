@@ -13,11 +13,12 @@
 - [English](#english)
 
 ## Général
-1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte -> MAMP ou Laragon
+1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte -> Après avoir installer Laragon on le met en route. Notre fichier devra être enregistré dans le dossier "htdocs" et l'URL devra contenir tout le chemin nécessaire pour arrive au dossier. 
+                                                                        ->MAMP ou Laragon
 2.	Qu’est-ce qu’un algorithme ? = Série d'instructions qui permettent d'obtenir un résultat ou résoudre un problème.
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ? = C'est un conteneur qui nous permet de stocker des informations temporairement. Elles sont préfixées par le symbole "$".
 4.	Qu’est-ce que la portée d’une variable ?
-5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
+5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ? =Une constante est une  Une variable déclarer avec constante ne pourra pas voir sa valeur changer plus tard, elle reste la même tout le temps.
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
@@ -35,7 +36,7 @@
 ## Front-end
 18.	Définir HTML = Langage de balisage utilisé pour structurer une page web et son contenu.
 19.	Définir CSS = Langage utilisé pour la mise en forme d'une page web. 
-20.	Définir Javascript
+20.	Définir Javascript = Langage de programmation qui permet de crée des pages web intéractive et est essentiel à la création d'applications.
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 23.	Qu’est-ce qu’un sélecteur CSS ? = C'est un élément qui permet de cibler les élements HTML auxquels on veut appliquer une règle CSS.
@@ -204,7 +205,7 @@ h.	Concaténer 2 chaînes de caractères
  
 ## English
 1)	What does JavaScript enable you to do on a website ?
-a.	Add interactive behavior and dynamic content
+a.	Add interactive behavior and dynamic content X
 b.	Define the layout and design of web pages
 c.	Handle server-side operations
 2)	Which programming language is primarily used for server-side web development ?
@@ -216,11 +217,11 @@ a.	To render and display web pages
 b.	To execute serve-side code
 c.	To manage databases
 4)	What is the difference between GET and POST methods in HTTP ?
-a.	GET retrieves data from a server, while POST submits data to a server
+a.	GET retrieves data from a server, while POST submits data to a server X
 b.	GET submits data to a server, while POST retrieves data from a server
 c.	GET and POST methods are interchangeable
 5)	What is the purpose of version control systems (e.g., Git) in web development ?
-a.	To track changes and manage collaborative development
+a.	To track changes and manage collaborative development X
 b.	To optimize website loading speed
 c.	To handle server-side scripting
 6)	What is the purpose of a framework in web development ?
