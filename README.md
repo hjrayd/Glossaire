@@ -13,9 +13,9 @@
 - [English](#english)
 
 ## Général
-1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte
+1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte -> MAMP ou Laragon
 2.	Qu’est-ce qu’un algorithme ? = Série d'instructions qui permettent d'obtenir un résultat ou résoudre un problème.
-3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ? = C'est un conteneur qui nous permet de stocker des informations temporairement. Elles sot préfixées par le symbole "$".
+3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ? = C'est un conteneur qui nous permet de stocker des informations temporairement. Elles sont préfixées par le symbole "$".
 4.	Qu’est-ce que la portée d’une variable ?
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ?
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
@@ -27,7 +27,7 @@
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP
 13.	Quelle est la différence entre les instructions « require » et « include » en PHP = require arretera le script et affichera une erreur si il ne trouve pas le fichier tandis que include affichera un avertissement mais n'arretera pas le script même si il y a une erreur.
 14.	Comment effectuer une redirection en PHP ?
-15.	Définir la partie « front-end » et « back-end » d’une application = front-end-> désigne l'interface graphique que l'on peut voir et permet l'inetraction entre l'utilisateur et le programme.
+15.	Définir la partie « front-end » et « back-end » d’une application = front-end-> désigne l'interface graphique que l'on peut voir et permet l'intraction entre l'utilisateur et le programme.
                                                                         back-end -> recouvrent les processus que l'on ne peut pas voir mais qui permettent à l'application de fonctionner.
 16.	Définir le contrôle de version ? Qu’est-ce que Git ?
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
@@ -46,10 +46,12 @@
 28.	Qu’est-ce que le templating ?
 29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ?
-31.	Qu’est-ce qu’un « media query » ? = fonctionnalité qui permet d'adapter la mise en forme d'un site web en fonction de la taille d'ecran où il apparait. 
+31.	Qu’est-ce qu’un « media query » ? = fonctionnalité qu'on inscrit dans le css qui permet d'adapter la mise en forme d'un site web en fonction de la taille d'ecran où il apparait. 
 32.	Qu’est-ce qu’un pseudo élément en CSS ? = mot clés qui permet de cibler uniquement une partie d'un élément HTML.
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
-34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes
+34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes = Un formulaire HTML peut être qssociés à la méthode "get" ou la méthode "post". 
+    Get -> Les données sont inscrites directement dans l'URL du site.
+    Post -> Les paramètres sont inscrits dans la requête HTTP.
 
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ?
@@ -76,9 +78,13 @@
 53.	Définir le polymorphisme en POO
 54.	Définir une méthode / classe abstraite ?
 55.	Définir le chaînage de méthodes
-56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
+56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques » = Méthode qui permet de renvoyer l'objet demandé sous forme d'une chaine de caractère. 
+    __construct() = Permet d'initaliser des propriétés dès qu'un objet sera crée. Elle sera ensuite appelée automatiquement dès qu'une classe sera instancié.
+    __get()= Permet de lire la propriété inexistante (privée ou protégée) d'une classe.
+    __set()= Permet de définir la propriété inexistante (privée ou protégée) d'une classe.
+
 57.	Qu’est-ce qu’un « autoload » ?
-58.	Comment appelle-t-on en français les « getters » et les « setters » ?
+58.	Comment appelle-t-on en français les « getters » et les « setters » ? 
 59.	Qu’est-ce que la sérialisation en PHP ?
 
 ## Architecture 
