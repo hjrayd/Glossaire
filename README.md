@@ -68,7 +68,7 @@
 46.	Définir la notion de propriété / attribut / méthode = 
 47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
 48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
-49.	Qu’est-ce que l’encapsulation ?
+49.	Qu’est-ce que l’encapsulation ? = Principe fondamental de la POO qui consiste à masquer certains attributs de la classe de sorte à ce qu'ils ne peuvent pas être vu ou modifier par un tiers.
 50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
 51.	Définir l’opérateur de résolution de portée
 52.	Définir une méthode / propriété statique
@@ -77,7 +77,7 @@
 55.	Définir le chaînage de méthodes
 56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques »
 57.	Qu’est-ce qu’un « autoload » ?
-58.	Comment appelle-t-on en français les « getters » et les « setters » ?
+58.	Comment appelle-t-on en français les « getters » et les « setters » ? = getters -> accesseurs, setters-> mutateurs.
 59.	Qu’est-ce que la sérialisation en PHP ? 
 
 ## Architecture 
