@@ -85,7 +85,7 @@
     __set()= Permet de définir la propriété inexistante (privée ou protégée) d'une classe.
 
 57.	Qu’est-ce qu’un « autoload » ?
-58.	Comment appelle-t-on en français les « getters » et les « setters » ?
+58.	Comment appelle-t-on en français les « getters » et les « setters » ? = getters -> accesseurs, setters -> mutateurs
 59.	Qu’est-ce que la sérialisation en PHP ? 
 
 ## Architecture 
