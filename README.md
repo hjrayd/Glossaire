@@ -30,7 +30,7 @@
 14.	Comment effectuer une redirection en PHP ?
 15.	Définir la partie « front-end » et « back-end » d’une application = front-end-> désigne l'interface graphique que l'on peut voir et permet l'intraction entre l'utilisateur et le programme.
                                                                         back-end -> recouvrent les processus que l'on ne peut pas voir mais qui permettent à l'application de fonctionner.
-16.	Définir le contrôle de version ? Qu’est-ce que Git ?
+16.	Définir le contrôle de version ? Qu’est-ce que Git ? 
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
 ## Front-end
@@ -70,8 +70,8 @@
 44.	Qu’est-ce qu’une classe ? Comment la déclare-t-on ? = Ensemble de codes qui contiennent des variables et des fonctions permettant de créer des objets. On la déclare en lui donnant le même nom que notre fichier, elle est précedé d'un point et commence par une majuscule. 
 45.	Qu’est-ce qu’un objet ? = Conteneurs composés de variables et de fonctions.
 46.	Définir la notion de propriété / attribut / méthode = 
-47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité
-48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ?
+47.	Qu’est-ce que la visibilité d’une propriété ou d’une méthode ? Citer les différents types de visibilité = "Protected", "Private, "Public". Ils définissent si l'objet ou la méthode peut être accessible partout ou non. 
+48.	Quelle est la méthode spécifique utilisée pour créer un nouvel objet à partir d’une classe ? = __construct
 49.	Qu’est-ce que l’encapsulation ? = Principe fondamental de la POO qui consiste à masquer certains attributs de la classe de sorte à ce qu'ils ne peuvent pas être vu ou modifier par un tiers.
 50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
 51.	Définir l’opérateur de résolution de portée
