@@ -84,7 +84,7 @@
     __get()= Permet de lire la propriété inexistante (privée ou protégée) d'une classe.
     __set()= Permet de définir la propriété inexistante (privée ou protégée) d'une classe.
 
-57.	Qu’est-ce qu’un « autoload » ?
+57.	Qu’est-ce qu’un « autoload » ? = méthode qui permet de charger automatiquement les fichiers de classes dont on a besoin.
 58.	Comment appelle-t-on en français les « getters » et les « setters » ? = getters -> accesseurs, setters -> mutateurs
 59.	Qu’est-ce que la sérialisation en PHP ? 
 
