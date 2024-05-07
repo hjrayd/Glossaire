@@ -36,7 +36,7 @@
 ## Front-end
 18.	Définir HTML = Langage de balisage utilisé pour structurer une page web et son contenu.
 19.	Définir CSS = Langage utilisé pour la mise en forme d'une page web. 
-20.	Définir Javascript = Langage de programmation qui permet de crée des pages web intéractive et est essentiel à la création d'applications.
+20.	Définir Javascript = Langage de programmation qui permet de creer des pages web interactives et est essentiel à la création d'applications.
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 23.	Qu’est-ce qu’un sélecteur CSS ? = C'est un élément qui permet de cibler les élements HTML auxquels on veut appliquer une règle CSS.
@@ -50,7 +50,7 @@
 31.	Qu’est-ce qu’un « media query » ? = fonctionnalité qu'on inscrit dans le css qui permet d'adapter la mise en forme d'un site web en fonction de la taille d'ecran où il apparait. 
 32.	Qu’est-ce qu’un pseudo élément en CSS ? = mot clés qui permet de cibler uniquement une partie d'un élément HTML.
 33.	Qu’est-ce que Bootstrap ? Donner d’autres exemples équivalent
-34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes = Un formulaire HTML peut être qssociés à la méthode "get" ou la méthode "post". 
+34.	Quand un formulaire HTML est créé, quelles sont les 2 méthodes qui peuvent lui être associées ? Donner la différence entre ces 2 méthodes = Un formulaire HTML peut être associés à la méthode "get" ou la méthode "post". 
     Get -> Les données sont inscrites directement dans l'URL du site.
     Post -> Les paramètres sont inscrits dans la requête HTTP.
 
