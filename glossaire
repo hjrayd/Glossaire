@@ -18,10 +18,10 @@
 2.	Qu’est-ce qu’un algorithme ? = Série d'instructions qui permettent d'obtenir un résultat ou résoudre un problème.
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ? = C'est un conteneur qui nous permet de stocker des informations temporairement. Elles sont préfixées par le symbole "$".
 4.	Qu’est-ce que la portée d’une variable ?
-5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ? =Une constante est une  Une variable déclarer avec constante ne pourra pas voir sa valeur changer plus tard, elle reste la même tout le temps.
+5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ? =Une constante ne pourra pas voir sa valeur changer plus tard, elle reste la même tout le temps.
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation 
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur)
-8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ?
+8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ? ->Oui : les tableaux associatifs, les tableaux indexés.
 9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ? = "strlen"
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP
@@ -30,7 +30,7 @@
 14.	Comment effectuer une redirection en PHP ?
 15.	Définir la partie « front-end » et « back-end » d’une application = front-end-> désigne l'interface graphique que l'on peut voir et permet l'intraction entre l'utilisateur et le programme.
                                                                         back-end -> recouvrent les processus que l'on ne peut pas voir mais qui permettent à l'application de fonctionner.
-16.	Définir le contrôle de version ? Qu’est-ce que Git ? 
+16.	Définir le contrôle de version ? Qu’est-ce que Git ? Git est un outil qui permet de voir les differentes modifications des fichiers d'un projet.
 17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
 
 ## Front-end
@@ -75,10 +75,10 @@
 49.	Qu’est-ce que l’encapsulation ? = Principe fondamental de la POO qui consiste à masquer certains attributs de la classe de sorte à ce qu'ils ne peuvent pas être vu ou modifier par un tiers.
 50.	Que signifie « étendre une classe » ? Quelle est le concept clé mis en œuvre ? Donner un exemple
 51.	Définir l’opérateur de résolution de portée
-52.	Définir une méthode / propriété statique
+52.	Définir une méthode / propriété statique = une méthode statique est dite statique lorsqu'elle appartient à une classe directement et non pas a un objet.
 53.	Définir le polymorphisme en POO
 54.	Définir une méthode / classe abstraite ?
-55.	Définir le chaînage de méthodes
+55.	Définir le chaînage de méthodes ->
 56.	Qu’est-ce que la méthode __toString() ? Existe-t-il d’autres méthodes « magiques » = Méthode qui permet de renvoyer l'objet demandé sous forme d'une chaine de caractère. 
     __construct() = Permet d'initaliser des propriétés dès qu'un objet sera crée. Elle sera ensuite appelée automatiquement dès qu'une classe sera instancié.
     __get()= Permet de lire la propriété inexistante (privée ou protégée) d'une classe.
