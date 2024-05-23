@@ -112,14 +112,15 @@ c.	Création, modification et suppression
 a.	Entité
 b.	Relation
 c.	Cardinalité
-d.	Clé primaire / clé étrangère
+d.	Clé primaire / clé étrangère -> Clé primaire = Element qui permet de garantir qu'un enregistrement est unique.
+    Clé étrangère = Element qui prend la valeur de la clé primaire afin de crée des liens entres les différentes entités.
 72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
 73.	Qu’est-ce qu’une base de données ?
 74.	Définir les notions suivantes : 
 a.	SQL
 b.	MySQL
 c.	SGBD (donner 2 exemples de SGBD)
-75.	Dans une base de données, les données sont stockées dans des ___. Celles-ci sont constituées de lignes appelées ___ et de colonnes appelées ___
+75.	Dans une base de données, les données sont stockées dans des tables. Celles-ci sont constituées de lignes appelées enregistrement et de colonnes appelées attributs
 76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
 77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
 78.	A quoi sert une vue dans une base de données ?
@@ -127,10 +128,10 @@ c.	SGBD (donner 2 exemples de SGBD)
 80.	Quelles sont les fonctions d’agrégation en SQL ?
 81.	Qu’est-ce qu’un CRUD dans le contexte d’une base de données ?
 82.	Quelles sont les clauses qui permettent de :
-a.	Insérer un nouvel enregistrement dans une table
-b.	Modifier un enregistrement dans une table
-c.	Supprimer un enregistrement dans une table
-d.	Supprimer la base de données
+a.	Insérer un nouvel enregistrement dans une table -> INSERT INTO
+b.	Modifier un enregistrement dans une table -> UPDATE
+c.	Supprimer un enregistrement dans une table -> DELETE
+d.	Supprimer la base de données -> DROP
 e.	Filtrer les résultats d’une requête SQL
 f.	Trier les résultats d’une requête SELECT
 g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
