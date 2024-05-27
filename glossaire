@@ -122,7 +122,7 @@ b.	MySQL
 c.	SGBD (donner 2 exemples de SGBD)
 75.	Dans une base de données, les données sont stockées dans des tables. Celles-ci sont constituées de lignes appelées enregistrement et de colonnes appelées attributs
 76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
-77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ?
+77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ? -> Une jointure permet de faire le lien entre deux tables qui ont un champ en commun. Il existe plusieurs jointures: "INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN".
 78.	A quoi sert une vue dans une base de données ?
 79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
 80.	Quelles sont les fonctions d’agrégation en SQL ?
@@ -132,9 +132,9 @@ a.	Insérer un nouvel enregistrement dans une table -> INSERT INTO
 b.	Modifier un enregistrement dans une table -> UPDATE
 c.	Supprimer un enregistrement dans une table -> DELETE
 d.	Supprimer la base de données -> DROP
-e.	Filtrer les résultats d’une requête SQL
+e.	Filtrer les résultats d’une requête SQL -> WHERE 
 f.	Trier les résultats d’une requête SELECT
-g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique
+g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique -> GROUP BY 
 h.	Concaténer 2 chaînes de caractères 
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
