@@ -133,7 +133,7 @@ b.	Modifier un enregistrement dans une table -> UPDATE
 c.	Supprimer un enregistrement dans une table -> DELETE
 d.	Supprimer la base de données -> DROP
 e.	Filtrer les résultats d’une requête SQL -> WHERE 
-f.	Trier les résultats d’une requête SELECT
+f.	Trier les résultats d’une requête SELECT -> ORDER BY
 g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique -> GROUP BY 
 h.	Concaténer 2 chaînes de caractères 
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
@@ -163,23 +163,23 @@ h.	Concaténer 2 chaînes de caractères
 103.	Définir la « validation des entrées »
 
 ## RGPD
-104.	Qu’est-ce que le RGPD ?
+104.	Qu’est-ce que le RGPD ? Le RGPD est un réglement qui encadre le traitement des données personnelles dans l'union européenne.
 105.	Quel est son objectif principal ?
-106.	Quelle est la date d’entrée en vigueur du RGPD ?
-107.	Quelles sont les sanctions possibles en cas de non-respect du RGPD ?
+106.	Quelle est la date d’entrée en vigueur du RGPD ? 25 mai 2018
+107.	Quelles sont les sanctions possibles en cas de non-respect du RGPD ? Des sanctions comme des amendes pouvant aller jusqu'a 20 millions d'euros ou 4% du chiffre d'affaire annuel de l'entreprise concernée.
 108.	En France, quel est l’autorité administrative qui s’occupe de faire appliquer le RGPD ?
 109.	Quel est le consentement valide selon le RPGD ?
 110.	Qu’est-ce qu’une politique de confidentialité ?
-111.	Quelle est la durée de conservation maximale des données personnelles selon le RGPD ?
+111.	Quelle est la durée de conservation maximale des données personnelles selon le RGPD ? 3 ans.
 112.	Quels sont les droits des utilisateurs selon le RGPD ?
 113.	Qu’est-ce que le principe de minimisation des données selon le RGPD ?
 
 ## SEO
-114.	Qu’est-ce que le SEO ? 
-115.	Quel est l’objectif principal du SEO ?
+114.	Qu’est-ce que le SEO ? -> "Optimisation pour les moteurs de recherches".Ce sont tous les codes à respecter afin de bien être référencé sur les pages des differents moteurs de recherches
+115.	Quel est l’objectif principal du SEO ? 
 116.	Existe-t-il plusieurs types de référencement ? Lesquels ?
 117.	Qu’est-ce que la densité de mots-clés en SEO ?
-118.	Qu’est-ce qu’une balise « alt » ?
+118.	Qu’est-ce qu’une balise « alt » ? La balise alt permet un bon réferencement car c'est grâce à elle qu'on peut préciser ce qu'une image affiche. Elle permet également de décrire l'image si il y a un bug lors de l'affichage ou, d'expliquer ce qu'il s'y trouve pour les personnes mal-voyantes.
 119.	Qu’est-ce que la balise « meta description » ?
 120.	Qu’est-ce que le « nofollow » en SEO ?
 121.	Quelle est l'importance du contenu de qualité pour le référencement d'un site web ?
