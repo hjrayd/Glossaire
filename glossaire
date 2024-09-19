@@ -101,27 +101,27 @@
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
 
 ## Modélisation - Base de données
-67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise
+67.	Qu’est-ce que la modélisation de données ? Définir la méthode Merise -> La modélisation de données c'est l'analyse d'une structure de données. La méthode merise permet de conceptualiser cette structure afin de visualiser les liens et les associations entre ces données.
 68.	Quelles sont les 3 étapes principales de la méthode Merise ? 
-a.	Analyse, conception et réalisation
+a.	Analyse, conception et réalisation -> V
 b.	Planification, exécution et contrôle
 c.	Création, modification et suppression
-69.	Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ?
-70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ?
+69.	Qu’est-ce qu’un modèle conceptuel de données (MCD) en Merise ? -> Modèle Conceptuel de Données = C'est une couche de la méthode merise qui permet de schématiser la structure d'une base de données. C'est la moins précise des couches car les types d'attributs de classe n'y apparaissent pas.
+70.	Qu’est-ce qu’un modèle logique de données (MLD) en Merise ? -> Modèle Logique des Données = c'est une couche de la méthode Merise qui permet de 
 71.	Donner la définition des mots suivants :
-a.	Entité
-b.	Relation
-c.	Cardinalité
+a.	Entité -> C'est l'ensemble d'informations qui caractérise un objet.
+b.	Relation -> C'est un lien entre deux entités
+c.	Cardinalité -> Ce sont des valeurs qui permettent de mieux préciser les relations entre deux entités.
 d.	Clé primaire / clé étrangère -> Clé primaire = Element qui permet de garantir qu'un enregistrement est unique.
     Clé étrangère = Element qui prend la valeur de la clé primaire afin de crée des liens entres les différentes entités.
-72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ?
-73.	Qu’est-ce qu’une base de données ?
+72.	Que devient une relation de type « Many To Many » dans le modèle logique de données ? -> Elle devient une table d'association
+73.	Qu’est-ce qu’une base de données ? -> C'est un stockage de données qui permet de les gérer , les modifier et les consulter facilement 
 74.	Définir les notions suivantes : 
-a.	SQL
-b.	MySQL
+a.	SQL -> Language informatique qui permet de gérer des bases de données
+b.	MySQL -> 
 c.	SGBD (donner 2 exemples de SGBD)
 75.	Dans une base de données, les données sont stockées dans des tables. Celles-ci sont constituées de lignes appelées enregistrement et de colonnes appelées attributs
-76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ?
+76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ? ->
 77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ? -> Une jointure permet de faire le lien entre deux tables qui ont un champ en commun. Il existe plusieurs jointures: "INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN".
 78.	A quoi sert une vue dans une base de données ?
 79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
