@@ -58,14 +58,14 @@
     Post -> Les paramètres sont inscrits dans la requête HTTP.
 
 ## UX UI
-35.	Quelle est la différence entre UX Design et UI Design ?
+35.	Quelle est la différence entre UX Design et UI Design ? UX design = Experience utilisateur et UI = Interface utilisateur
 36.	Qu’est-ce qu’un wireframe ? 
 37.	Qu’est-ce qu’un prototype ? 
-38.	Qu’est-ce que la hiérarchie visuelle en UI Design ?
+38.	Qu’est-ce que la hiérarchie visuelle en UI Design ? 
 39.	Qu’est-ce que l’accessibilité en UX Design ? 
 40.	Qu’est-ce qu’une grille de mise en page ?
-41.	Qu’est-ce que la notion d’affordance en UX Design ?
-42.	Qu’est-ce qu’un « mobile first design » ?
+41.	Qu’est-ce que la notion d’affordance en UX Design ? = Rendre l'experience utilisateur plus simple en rendant le site ergonomique et accessible. 
+42.	Qu’est-ce qu’un « mobile first design » ? = C'est un site qui a été conçu en priorité pour les mobiles et ensuite pour les plus grands écrans.
 
  
 ## Programmation orientée objet (POO)
