@@ -151,14 +151,15 @@ h.	Concaténer 2 chaînes de caractères
 93.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 
 ## Sécurité
-94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ?
-95.	Qu’est-ce que la faille XSS ? Comment s’en prémunir ?
+94.	Qu’est-ce que l’injection SQL ? Comment s’en prémunir ? ->  La faille SQL est le fait d'utiliser du code SQL afin d'accéder à la base de donnée ou d'en modifier le contenu. Pour s'en rpémunir il faut préparer chaque requêtes
+95.	Qu’est-ce que la faille XSS ? Comment s’en prémunir ? -> La faille XSS c'est le fait d'injecter du code malveillant dans une page web. Pour s'en prémunir, on filtre chaque champs des formulaires présents sur la page.
 96.	Qu’est-ce que la faille CSRF ? Comment s’en prémunir ?
 97.	Définir l’attaque par force brute et l’attaque par dictionnaire
 98.	Existe-t-il d’autres failles de sécurité ? Citer celles-ci et expliquer simplement leur comportement
 99.	A quoi servent l’authentification et l’autorisation dans un contexte d’application web ?
-100.	Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage
-101.	Qu’est-ce qu’une politique de mots de passe forts ?
+100.	Définir la notion de hachage d’un mot de passe et citer des algorithmes de hachage -> le hachage permet de modifier un mot de passe en le remplaçant par plsuieurs lettres et chiffres dans la base de données afin que personne n'accède au mot de passe d'origine.
+Algo de hachage -> Bcrypt, MD5, SHA256
+101.	Qu’est-ce qu’une politique de mots de passe forts ? 
 102.	Qu’est-ce que l’hameçonnage ?
 103.	Définir la « validation des entrées »
 
@@ -192,7 +193,7 @@ h.	Concaténer 2 chaînes de caractères
 ## Gestion de projets - DevOps
 127.	Qu’est-ce que la gestion de projet ?	
 128.	Qu’est-ce qu’une méthode Agile de gestion de projet ? 
-129.	Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages
+129.	Expliquer la méthode MoSCoW en quelques lignes et citer ses avantages -> la méthode moscow permet de hiérarchiser les tâches.
 130.	A quoi sert la méthodologie MVP ? Citer les caractéristiques clés
 131.	Qu’est-ce que la planification itérative ?
 132.	Citer 3 méthodes Agiles dans le cadre d’un projet informatique
@@ -229,7 +230,7 @@ a.	To track changes and manage collaborative development X
 b.	To optimize website loading speed
 c.	To handle server-side scripting
 6)	What is the purpose of a framework in web development ?
-a.	To provide a structured environment for building web applications
+a.	To provide a structured environment for building web applications X
 b.	To handle network protocols and data transfer
 c.	To create visual designs and layouts for websites
 7)	What does NoSQL stand for ?
