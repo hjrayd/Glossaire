@@ -139,14 +139,14 @@ h.	Concaténer 2 chaînes de caractères
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
 ## Symfony
-84.	Qu’est-ce que Symfony ?
-85.	Sur quel langage de programmation et design pattern repose Symfony ? 
-86.	Quelle est la dernière version en date de Symfony ?
-87.	Qu’est-ce qu’un bundle ? 
-88.	Quel est le moteur de template utilisé par défaut dans Symfony ?
-89.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ?
+84.	Qu’est-ce que Symfony ? -> Symfony est un framework PHP opensource.
+85.	Sur quel langage de programmation et design pattern repose Symfony ? -> Symfony repose sur le language PHP et un design pattern de type MVC (model/view/controller)
+86.	Quelle est la dernière version en date de Symfony ? -> La dernière version en date de symfony est symfony 7.2
+87.	Qu’est-ce qu’un bundle ? -> 
+88.	Quel est le moteur de template utilisé par défaut dans Symfony ? Twig est le moteur de templates utilisé par symfony
+89.	Qu’est-ce qu’un ORM ? Quel est son utilité et comment s’appelle-t-il au sein de Symfony ? -> Un ORM permet de questionné notre base de données à l'aide d'objets et de collections d'objets sans avoir à utilisé de requête SQL. L'ORM utilisé au sein de symfony est Doctrine.
 90.	Qu’est-ce que l’injection de dépendances ? Quel est l’outil utilisé dans ce contexte et quel fichier contient l’intégralité des dépendances du projet ?
-91.	Que permet le bundle Maker au sein de Symfony ? 
+91.	Que permet le bundle Maker au sein de Symfony ? -> Ce bundle nous permet de créer des méthodes, des formulaires, des controllers, des entités et des migrations.
 92.	Quel est le langage de requêtage exploité au sein d’un projet Symfony ?
 93.	Quel est le composant qui garantit l’authentification et l’autorisation des utilisateurs ?
 
