@@ -13,11 +13,11 @@
 - [English](#english)
 
 ## Général
-1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte -> Après avoir installer Laragon on le met en route. Notre fichier devra être enregistré dans le dossier "htdocs" et l'URL devra contenir tout le chemin nécessaire pour arrive au dossier. 
+1.	Quel est l’environnement à installer pour exécuter un script PHP ? Citer 2 exemples de logiciels permettant ce contexte -> Après avoir installer Laragon on le met en route. Notre fichier devra être enregistré dans le dossier "htdocs/www" et l'URL devra contenir tout le chemin nécessaire pour arrive au dossier. 
                                                                         ->MAMP ou Laragon
 2.	Qu’est-ce qu’un algorithme ? = Série d'instructions qui permettent d'obtenir un résultat ou résoudre un problème.
 3.	Qu’est-ce qu’une variable ? Par quel symbole est préfixée une variable en PHP ? = C'est un conteneur qui nous permet de stocker des informations temporairement. Elles sont préfixées par le symbole "$".
-4.	Qu’est-ce que la portée d’une variable ? = La portée d'une varaible délimite la zone où la variable est utilisable.
+4.	Qu’est-ce que la portée d’une variable ? = La portée d'une variable délimite la zone où la variable est utilisable.
 5.	Qu’est-ce qu’une constante ? Quelle est la différence avec une variable ? = Une constante ne pourra pas voir sa valeur changer plus tard, elle reste la même tout le temps contrairement à une variable.
 6.	Qu’est-ce qu’une superglobale, combien en existent-ils et donner un exemple d’utilisation -> Une superglobale est une variable qui est déjà prédefinie et est disponible dans n'importe quel endroit du script PHP.
         Il en existe 9.
@@ -29,17 +29,17 @@
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP -> Une session permet de stocker les données d'un utilisateur grâce à des cookies et à  un identifiant unique pour chaque utilisateur. 
         La fonction session_start() permet de demarrer une fonction.
 12.	Qu’est-ce qu’un cookie ? Donner un exemple d’utilisation en PHP -> Un cookie est un fichier texte qui va venir se stocker sur l'ordinateur de l'utilisateur qui visite le site en question et qui va permettre d'enregistrer et lire les infos de l'utilisateur afin de le reconnaitre.
-13.	Quelle est la différence entre les instructions « require » et « include » en PHP = require arretera le script et affichera une erreur si il ne trouve pas le fichier tandis que include affichera un avertissement mais n'arretera pas le script même si il y a une erreur.
+13.	Quelle est la différence entre les instructions « require » et « include » en PHP = require arretera le script et affichera une erreur fatale si il ne trouve pas le fichier tandis que include affichera un avertissement mais n'arretera pas le script même si il y a une erreur.
 14.	Comment effectuer une redirection en PHP ? -> On utilise la fonction header() en indiquant la page où l'on veut que l'utilisateur soit redirigé.
-15.	Définir la partie « front-end » et « back-end » d’une application = front-end-> désigne l'interface graphique que l'on peut voir et permet l'intraction entre l'utilisateur et le programme.
+15.	Définir la partie « front-end » et « back-end » d’une application = front-end-> désigne l'interface graphique que l'on peut voir et permet l'interaction entre l'utilisateur et le programme.
                                                                         back-end -> recouvrent les processus que l'on ne peut pas voir mais qui permettent à l'application de fonctionner.
 16.	Définir le contrôle de version ? Qu’est-ce que Git ? Le contrôle de version permet de visionner toutes les versions des fichiers qui constituent un projet et toutes les modifications apportées à ces fichiers. Git est un outil qui permet de voir les differentes modifications des fichiers d'un projet.
-17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples
+17.	Qu’est-ce qu’un CMS ? Citer au moins 2 exemples -> Un CMS est un logiciel qui permet de créer un site web et de gérer son contenu et sa structure. Wordpress et Shopify
 
 ## Front-end
 18.	Définir HTML = Langage de balisage utilisé pour structurer une page web et son contenu.
 19.	Définir CSS = Langage utilisé pour la mise en forme d'une page web. 
-20.	Définir Javascript = Langage de programmation qui permet de creer des pages web interactives et est essentiel à la création d'applications.
+20.	Définir Javascript = Langage de programmation qui permet de créer des pages web interactives.
 21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 23.	Qu’est-ce qu’un sélecteur CSS ? = C'est un élément qui permet de cibler les élements HTML auxquels on veut appliquer une règle CSS.
@@ -94,8 +94,10 @@
 ## Architecture 
 60.	Qu’est-ce que l’architecture client / serveur ? Grâce à quel type de requête peut-on interroger le serveur. Définir l’acronyme de ce type de requête. Si on ajoute un « S » à cet acronyme, expliquer la différence
 61.	Donner la définition d’un design pattern. Citer au moins 3 exemples de design pattern
-62.	Qu’est-ce que l’architecture MVC ?
-63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ?
+62.	Qu’est-ce que l’architecture MVC ? -> C'est une architecture qui repose sur le modèle "Model/View/Controller"
+63.	Quel est le rôle de chaque couche du design pattern MVC : Model, View, Controller ? -> Model = récupère les informations depuis la base de données. 
+                                                                                        -> View = ce que l'utilisateur voit. C'est là qu'on gère l'interface du site.
+                                                                                        -> Controller = récupère les infos que l'utilisateur envoie depuis la vue, les transmet au model afin d'ajouter/modifier des données et renvoie le résultat à la vue.
 64.	Quels sont les avantages de l’architecture MVC ?
 65.	Existe-t-il des variantes à l’architecture MVC ?
 66.	Qu’est-ce qu’une API ? Définir l’architecture REST
@@ -121,7 +123,8 @@ a.	SQL -> Language informatique qui permet de gérer des bases de données
 b.	MySQL -> 
 c.	SGBD (donner 2 exemples de SGBD)
 75.	Dans une base de données, les données sont stockées dans des tables. Celles-ci sont constituées de lignes appelées enregistrement et de colonnes appelées attributs
-76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ? ->
+76.	Quelle est la différence entre une base de données relationnelle et non relationnelle ? -> Une base de données relationnelles comporte des entités reliés entre elles par des liens.
+                                                                                            -> Une base de données non relationnelle comporte des entités qui ne sont pas reliés entre elles.
 77.	Qu’est-ce qu’une jointure dans une base de données ? En existe-t-il plusieurs ? Si oui lesquelles ? -> Une jointure permet de faire le lien entre deux tables qui ont un champ en commun. Il existe plusieurs jointures: "INNER JOIN", "LEFT JOIN", "RIGHT JOIN", "FULL JOIN".
 78.	A quoi sert une vue dans une base de données ?
 79.	Qu’est-ce que l’intégrité référentielle dans une base de données ?
@@ -135,7 +138,7 @@ d.	Supprimer la base de données -> DROP
 e.	Filtrer les résultats d’une requête SQL -> WHERE 
 f.	Trier les résultats d’une requête SELECT -> ORDER BY
 g.	Regrouper les résultats d'une requête SELECT en fonction d'une colonne spécifique -> GROUP BY 
-h.	Concaténer 2 chaînes de caractères 
+h.	Concaténer 2 chaînes de caractères -> CONCAT()
 83.	Comment se connecter à une base de données en PHP ? Quelle est la classe native utilisée ?
 
 ## Symfony
@@ -214,11 +217,11 @@ a.	Add interactive behavior and dynamic content X
 b.	Define the layout and design of web pages
 c.	Handle server-side operations
 2)	Which programming language is primarily used for server-side web development ?
-a.	PHP
+a.	PHP X
 b.	JavaScript
 c.	HTML
 3)	What is the purpose of a web browser ?
-a.	To render and display web pages
+a.	To render and display web pages X
 b.	To execute serve-side code
 c.	To manage databases
 4)	What is the difference between GET and POST methods in HTTP ?
@@ -234,7 +237,7 @@ a.	To provide a structured environment for building web applications X
 b.	To handle network protocols and data transfer
 c.	To create visual designs and layouts for websites
 7)	What does NoSQL stand for ?
-a.	Not Only SQL
+a.	Not Only SQL X
 b.	Non-Structured Query Language
 c.	New Object-Oriented Language
 8)	Which of the following is a characteristic of NoSQL databases ?
