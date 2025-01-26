@@ -24,7 +24,7 @@
         La superglobale "__GET" par exemple nous permet de récuperer des données présente dans l'URL.
 7.	Quels sont les différents types (primitifs) que l’on peut associer à une variable en PHP ? Les citer et en donner des exemples (ne pas oublier le type d’une variable sans valeur) = Les types de variables primitifs sont : string(représente une chaîne de caractère), boolean(représente deux valeurs: true ou false), float(représente un nombre à virgule), int(représente un nombre entier) et null(représente une variable ans valeur). 
 8.	Existe-t-il plusieurs types de tableaux en PHP, si oui lesquels ? ->Oui : les tableaux associatifs, les tableaux indexés.
-9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles
+9.	Quelles sont les différentes structures de contrôles qu’il existe en algorithmie ? Donner un exemple pour chacune d’entre elles -> structure conditionelle simple, structure confitionelle multiple,
 10.	Quelle est la fonction PHP permettant de demander la longueur d’une chaîne de caractères ? = "strlen"
 11.	Qu’est-ce qu’une session ? Quelle fonction permet de démarrer une session en PHP ? Donner un exemple d’utilisation en PHP -> Une session permet de stocker les données d'un utilisateur grâce à des cookies et à  un identifiant unique pour chaque utilisateur. 
         La fonction session_start() permet de demarrer une fonction.
@@ -40,15 +40,15 @@
 18.	Définir HTML = Langage de balisage utilisé pour structurer une page web et son contenu.
 19.	Définir CSS = Langage utilisé pour la mise en forme d'une page web. 
 20.	Définir Javascript = Langage de programmation qui permet de créer des pages web interactives.
-21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? 
+21.	Définir JSON. Dans quel contexte ce format est-il utilisé ? -> (JavaScript Object Notation) permet de structure desd onnées et de les rendre plus lisible. JSON est souvent utilisé comme moyen de communication entre un serveur et un client. 
 22.	Peut-on interpréter du Javascript côté serveur ? Si oui, comment ?
 23.	Qu’est-ce qu’un sélecteur CSS ? = C'est un élément qui permet de cibler les élements HTML auxquels on veut appliquer une règle CSS.
 24.	Quelle balise HTML permet de créer un lien hypertexte ? = la balise anchorage "a" suivi de "href".
-25.	Qu’est-ce qu’une requête AJAX ?
+25.	Qu’est-ce qu’une requête AJAX ? -> une requête AJAX permet l'asynchronisation, c'est une technique qui permet à une page web de communiquer avec un serveur sans avoir à recharger la page entière.
 26.	Quel sélecteur CSS permet de sélectionner tous les éléments d’une classe spécifique ? D’un identifiant spécifique ? on utilise "." pour appliquer du style sur une classe et "#" pour un identifiant.
 27.	Définir le responsive design = technique de conception web qui permet d'adapter la page d'un site web en fonction de l'écran ou il est consulté.
-28.	Qu’est-ce que le templating ? -> 
-29.	Qu’est-ce qu’une fonction anonyme en Javascript ?
+28.	Qu’est-ce que le templating ? -> Le templating permet de séparer la logique de la présentation de la page. Il permet de créer des "templates" qui se verront par la suite injecter les données nécessaire afin de les afficher sur ces mêmes pages.
+29.	Qu’est-ce qu’une fonction anonyme en Javascript ? -> Ce sont des fonctions qui n'ont pas de noms car elles sont temporaires ou affécté à une variable directement.
 30.	Quelle méthode JavaScript est utilisée pour ajouter un élément à la fin d'un tableau ? -> La méthode "push()"
 31.	Qu’est-ce qu’un « media query » ? = fonctionnalité qu'on inscrit dans le css qui permet d'adapter la mise en forme d'un site web en fonction de la taille d'ecran où il apparait. 
 32.	Qu’est-ce qu’un pseudo élément en CSS ? = mot clés qui permet de cibler uniquement une partie d'un élément HTML.
@@ -60,7 +60,7 @@
 ## UX UI
 35.	Quelle est la différence entre UX Design et UI Design ? UX design = Experience utilisateur et UI = Interface utilisateur
 36.	Qu’est-ce qu’un wireframe ? -> C'est le plan/le squelette du site que l'on souhaite coder.
-37.	Qu’est-ce qu’un prototype ? -> 
+37.	Qu’est-ce qu’un prototype ? -> C'est une première version interactive d'un produit qui permet de tester et valider son fonctionnement et son design
 38.	Qu’est-ce que la hiérarchie visuelle en UI Design ? -> C'est mettre en avant les éléments les plsu importants sur un site web en utilisant des couleurs/contrastes, différentes tailles etc .
 39.	Qu’est-ce que l’accessibilité en UX Design ? -> L'accessibilité permet à toutes les personnes, dont les utilisateurs en situation d'handicaps, d'accéder au site et de naviguer sans rencontrer d'obstacle dû à une mauavsie utilisation du css.
 40.	Qu’est-ce qu’une grille de mise en page ? -> 
