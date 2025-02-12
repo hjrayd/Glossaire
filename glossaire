@@ -244,3 +244,19 @@ c.	New Object-Oriented Language
 a.	Strict schema enforcement
 b.	Support for complex transactions
 c.	Scalability and flexible data models
+
+## NoSQL
+
+1) Qu'est ce qu'une base de données NoSQL ?
+-> C'est un système de gestion de base de données non relationnelles. Plus flexible, elle permet de stocker de grandes quantité de données souvent non structurée.
+
+2) Quels sont les avantages de MongoDB par rapport aux bases de données relationnelles ?
+-> Les documents peuvent être de structures différentes, permet de manipuler des données complexes.
+
+3) Qu'est-ce que BSON et comment diffère-t-il de JSON ?
+Binary JSON -> permet de stocker et echanger des documents 
+4) Quelle est la différence entre une base de données, une collection et un document dans MongoDB ?
+5) Que contient une collection dans MongoDB ?
+6) Qu'est-ce qu'un document dans MongoDB et comment est-il structuré ?
+7) Que sont les champs dans un document MongoDB ?
+8) Qu'est-ce qu'un index dans MongoDB et à quoi sert-il ?
