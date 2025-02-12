@@ -254,9 +254,19 @@ c.	Scalability and flexible data models
 -> Les documents peuvent être de structures différentes, permet de manipuler des données complexes.
 
 3) Qu'est-ce que BSON et comment diffère-t-il de JSON ?
-Binary JSON -> permet de stocker et echanger des documents 
+-> Binary JSON -> C'est un format d'échange de données qui permet de stocker et echanger des documents 
+
 4) Quelle est la différence entre une base de données, une collection et un document dans MongoDB ?
+-> BDD -> Contient les collections/ Collections-> Equivalent d'une table en BDD relationelles/ Document -> Equivalent d'un enregistrement en BDD contenu dans les collections
+
 5) Que contient une collection dans MongoDB ?
+->Une collections contient des documents
+
 6) Qu'est-ce qu'un document dans MongoDB et comment est-il structuré ?
+-> Un document est l'équivalent d'un enregistrement en BDD relationelle, il est representé sous la forme d'un objet BSON et chaque document contient des paires clé-valeur
+
 7) Que sont les champs dans un document MongoDB ?
+-> Un champs correspond à une clé dans un document et chaque champs est associé à une valeur.
+
 8) Qu'est-ce qu'un index dans MongoDB et à quoi sert-il ?
+-> C'est une structure qui permet d'accélerer les recherches, de ce fait, un élément sera localiser plus facilement en empechant donc de scanner une collection entière par exemple
